@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+
+<body>
+    <!--/*<video autoplay muted loop id="myVideo">
+        <source src="sea_of_clouds (Original).mp4" type="video/mp4">
+    </video>-->
+    <h1>Student detail</h1>
+    <form id="register" action="login.html" method="post">
+        <label class="fname" for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter first name"><br><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Enter Last name"><br><br>
+
+        <label for="mail">Emial-Id</label>
+        <input type="email" name="email" id="mail"><br><br>
+
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" minlength="8" maxlength="15"><br><br>
+
+
+        <label for="gender">Gender</label>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female"><br><br>
+
+
+        <label for="contact">Phone Number:</label>
+        <input type="tel" name="contact" id="contact" minlength="10" maxlength="10"><br><br>
+
+        <label for="address">address</label>
+        <textarea name="address" id="address" cols="40" rows="5"></textarea>
+
+        <hr>
+
+        <h1>Education details</h1>
+
+        <div class="label">
+            <label for="degree">Degree</label>
+        </div>
+
+        <div class="custom">
+            <select class="degree" id="Degree">
+                <option value="">select degree</option>
+                <option value="">Bsc</option>
+                <option value="">msc</option>
+                <option value="">BCA</option>
+                <option value="">BA</option>
+            </select>
+        </div><br><br><br>
+
+        <div class="label">
+            <label for="course">Course</label>
+        </div>
+
+        <div class="custom">
+            <select class="degree" id="course">
+                <option value="">Select Course</option>
+                <option value="">Full stack developer</option>
+                <option value="">Data science</option>
+                <option value="">AI and Machine Lerning</option>
+            </select>
+        </div><br><br>
+
+        <label for="file">File:</label>
+        <input type="file" name="file" id="file"><br><br>
+
+        <center><input type="submit" value="submit"></center>
+    </form>
+    </center>
+    </div>
+    </video>
+</body>
+
+</html>
